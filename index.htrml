@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Ayush Srivastava | BCA Student</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+
+<header class="navbar">
+
+    <div class="logo">AS<span>.</span></div>
+
+    <nav id="navMenu">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <button class="menu-btn" id="menuBtn">☰</button>
+
+</header>
+
+
+<!-- ================= HERO ================= -->
+
+<section class="hero" id="home">
+
+    <div class="hero-content">
+
+        <p class="small-text">Hello, I'm</p>
+
+        <h1>Ayush<br><span>Srivastava.</span></h1>
+
+        <h2>BCA Student & Aspiring Software Developer</h2>
+
+        <p class="hero-description">
+            I am a BCA student passionate about programming, web development,
+            data analysis and building useful projects with modern technologies.
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="#projects" class="btn primary">
+                View Projects
+            </a>
+
+            <a href="#contact" class="btn secondary">
+                Contact Me
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <div class="hero-card">
+
+        <div class="code-window">
+
+            <div class="window-top">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <div class="code">
+                <p><span class="purple">const</span> developer = {</p>
+
+                <p class="indent">
+                    name:
+                    <span class="green">"Ayush"</span>,
+                </p>
+
+                <p class="indent">
+                    degree:
+                    <span class="green">"BCA"</span>,
+                </p>
+
+                <p class="indent">
+                    skills:
+                    <span class="green">["Java", "Python"]</span>,
+                </p>
+
+                <p class="indent">
+                    learning:
+                    <span class="green">"Web Development"</span>
+                </p>
+
+                <p>};</p>
+
+                <p>
+                    <span class="purple">console</span>.
+                    <span class="blue">log</span>(developer);
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= ABOUT ================= -->
+
+<section class="section" id="about">
+
+    <div class="section-heading">
+
+        <p>ABOUT ME</p>
+
+        <h2>Get To Know Me</h2>
+
+        <span>
+            A brief introduction about my journey and interests.
+        </span>
+
+    </div>
+
+
+    <div class="about-grid">
+
+        <div class="about-text">
+
+            <h3>BCA Student & Future Developer</h3>
+
+            <p>
+                I'm Ayush Srivastava, a Bachelor of Computer Applications
+                student with a strong interest in software development,
+                programming and technology.
+            </p>
+
+            <p>
+                I enjoy learning programming languages such as Java and Python
+                and developing websites using HTML, CSS and JavaScript.
+            </p>
+
+            <p>
+                My goal is to continuously improve my technical and
+                problem-solving skills and start my career in the software
+                development industry.
+            </p>
+
+        </div>
+
+
+        <div class="about-info">
+
+            <div class="info-box">
+                <span>🎓</span>
+                <div>
+                    <small>Degree</small>
+                    <strong>Bachelor of Computer Applications</strong>
+                </div>
+            </div>
+
+            <div class="info-box">
+                <span>💻</span>
+                <div>
+                    <small>Interest</small>
+                    <strong>Software Development</strong>
+                </div>
+            </div>
+
+            <div class="info-box">
+                <span>📍</span>
+                <div>
+                    <small>Location</small>
+                    <strong>Prayagraj, Uttar Pradesh, India</strong>
+                </div>
+            </div>
+
+            <div class="info-box">
+                <span>🚀</span>
+                <div>
+                    <small>Status</small>
+                    <strong>Open to Opportunities</strong>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= EDUCATION ================= -->
+
+<section class="section" id="education">
+
+    <div class="section-heading">
+
+        <p>EDUCATION</p>
+
+        <h2>My Academic Journey</h2>
+
+        <span>
+            My educational background.
+        </span>
+
+    </div>
+
+
+    <div class="timeline">
+
+        <div class="timeline-item">
+
+            <div class="timeline-dot"></div>
+
+            <div class="timeline-content">
+
+                <span class="date">CURRENT</span>
+
+                <h3>Bachelor of Computer Applications</h3>
+
+                <h4>BCA</h4>
+
+                <p>
+                    Currently pursuing BCA with subjects including
+                    Operating Systems, DBMS, Software Engineering,
+                    Python and Java.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="timeline-item">
+
+            <div class="timeline-dot"></div>
+
+            <div class="timeline-content">
+
+                <span class="date">12th</span>
+
+                <h3>Intermediate</h3>
+
+                <h4>Higher Secondary Education</h4>
+
+                <p>
+                    Completed higher secondary education and developed
+                    an interest in computers and technology.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="timeline-item">
+
+            <div class="timeline-dot"></div>
+
+            <div class="timeline-content">
+
+                <span class="date">10th</span>
+
+                <h3>High School</h3>
+
+                <h4>Secondary Education</h4>
+
+                <p>
+                    Completed secondary education and built a foundation
+                    for further studies.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= SKILLS ================= -->
+
+<section class="section skills-section" id="skills">
+
+    <div class="section-heading">
+
+        <p>MY SKILLS</p>
+
+        <h2>Technologies I Work With</h2>
+
+        <span>
+            Technologies and tools I am learning and using.
+        </span>
+
+    </div>
+
+
+    <div class="skills-grid">
+
+        <div class="skill-category">
+
+            <h3>Programming</h3>
+
+            <div class="skill-list">
+
+                <div class="skill">
+                    <span>Java</span>
+                    <div class="progress">
+                        <div style="width:70%"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <span>Python</span>
+                    <div class="progress">
+                        <div style="width:70%"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <span>C</span>
+                    <div class="progress">
+                        <div style="width:60%"></div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="skill-category">
+
+            <h3>Web Development</h3>
+
+            <div class="skill-list">
+
+                <div class="skill">
+                    <span>HTML</span>
+                    <div class="progress">
+                        <div style="width:85%"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <span>CSS</span>
+                    <div class="progress">
+                        <div style="width:75%"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <span>JavaScript</span>
+                    <div class="progress">
+                        <div style="width:65%"></div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="skill-category">
+
+            <h3>Data & Tools</h3>
+
+            <div class="tags">
+
+                <span>SQL</span>
+                <span>Excel</span>
+                <span>NumPy</span>
+                <span>Pandas</span>
+                <span>Jupyter</span>
+                <span>Git</span>
+                <span>GitHub</span>
+                <span>VS Code</span>
+
+            </div>
+
+        </div>
+
+
+        <div class="skill-category">
+
+            <h3>Core Concepts</h3>
+
+            <div class="tags">
+
+                <span>DBMS</span>
+                <span>OOP</span>
+                <span>Operating System</span>
+                <span>Data Structures</span>
+                <span>Software Engineering</span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= PROJECTS ================= -->
+
+<section class="section" id="projects">
+
+    <div class="section-heading">
+
+        <p>PROJECTS</p>
+
+        <h2>Featured Projects</h2>
+
+        <span>
+            Projects created while learning and improving my development skills.
+        </span>
+
+    </div>
+
+
+    <div class="projects-grid">
+
+
+        <!-- Portfolio -->
+
+        <article class="project-card">
+
+            <div class="project-image portfolio-img">
+
+                <div class="mini-browser">
+
+                    <div class="browser-bar"></div>
+
+                    <div class="mini-content">
+
+                        <div class="mini-line large"></div>
+                        <div class="mini-line"></div>
+                        <div class="mini-line short"></div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="project-content">
+
+                <div class="project-number">01</div>
+
+                <h3>Personal Portfolio</h3>
+
+                <p>
+                    A responsive personal portfolio website showcasing
+                    my education, skills, projects and contact information.
+                </p>
+
+                <div class="tech-stack">
+
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+
+                </div>
+
+                <div class="project-links">
+
+                    <a href="#" target="_blank">GitHub ↗</a>
+
+                    <a href="#" target="_blank">Live Demo ↗</a>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+        <!-- Project 2 -->
+
+        <article class="project-card">
+
+            <div class="project-image">
+
+                <div class="project-placeholder">
+                    PROJECT
+                </div>
+
+            </div>
+
+            <div class="project-content">
+
+                <div class="project-number">02</div>
+
+                <h3>Student Management System</h3>
+
+                <p>
+                    A student management project designed to manage
+                    student records and demonstrate programming and
+                    database concepts.
+                </p>
+
+                <div class="tech-stack">
+
+                    <span>Java</span>
+                    <span>SQL</span>
+                    <span>DBMS</span>
+
+                </div>
+
+                <div class="project-links">
+
+                    <a href="#" target="_blank">GitHub ↗</a>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+        <!-- Project 3 -->
+
+        <article class="project-card">
+
+            <div class="project-image">
+
+                <div class="project-placeholder">
+                    DATA
+                </div>
+
+            </div>
+
+            <div class="project-content">
+
+                <div class="project-number">03</div>
+
+                <h3>Data Analysis Project</h3>
+
+                <p>
+                    A beginner-friendly data analysis project using
+                    Python libraries to explore, clean and visualize data.
+                </p>
+
+                <div class="tech-stack">
+
+                    <span>Python</span>
+                    <span>Pandas</span>
+                    <span>NumPy</span>
+
+                </div>
+
+                <div class="project-links">
+
+                    <a href="#" target="_blank">GitHub ↗</a>
+
+                </div>
+
+            </div>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+<!-- ================= LEARNING ================= -->
+
+<section class="section learning">
+
+    <div class="section-heading">
+
+        <p>CURRENTLY LEARNING</p>
+
+        <h2>Growing Every Day</h2>
+
+    </div>
+
+
+    <div class="learning-grid">
+
+        <div class="learning-card">
+
+            <span>01</span>
+
+            <h3>Web Development</h3>
+
+            <p>
+                HTML, CSS, JavaScript and responsive website development.
+            </p>
+
+        </div>
+
+
+        <div class="learning-card">
+
+            <span>02</span>
+
+            <h3>Python</h3>
+
+            <p>
+                Python programming, Pandas, NumPy and data analysis.
+            </p>
+
+        </div>
+
+
+        <div class="learning-card">
+
+            <span>03</span>
+
+            <h3>Java</h3>
+
+            <p>
+                Object-oriented programming and Java application development.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= CONTACT ================= -->
+
+<section class="section contact" id="contact">
+
+    <div class="section-heading">
+
+        <p>CONTACT</p>
+
+        <h2>Get In Touch</h2>
+
+        <span>
+            Have an opportunity or want to connect? Send me a message.
+        </span>
+
+    </div>
+
+
+    <div class="contact-grid">
+
+
+        <form id="contactForm">
+
+            <div class="input-group">
+
+                <label>Name</label>
+
+                <input
+                    type="text"
+                    id="name"
+                    placeholder="Enter your name"
+                    required
+                >
+
+            </div>
+
+
+            <div class="input-group">
+
+                <label>Email</label>
+
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="Enter your email"
+                    required
+                >
+
+            </div>
+
+
+            <div class="input-group">
+
+                <label>Subject</label>
+
+                <input
+                    type="text"
+                    id="subject"
+                    placeholder="Enter subject"
+                    required
+                >
+
+            </div>
+
+
+            <div class="input-group">
+
+                <label>Message</label>
+
+                <textarea
+                    id="message"
+                    rows="6"
+                    placeholder="Write your message..."
+                    required
+                ></textarea>
+
+            </div>
+
+
+            <button type="submit" class="btn primary">
+                Send Message →
+            </button>
+
+        </form>
+
+
+        <div class="contact-info">
+
+            <h3>Let's Connect</h3>
+
+            <p>
+                I'm open to internship opportunities, placement
+                opportunities, projects and professional connections.
+            </p>
+
+
+            <div class="contact-item">
+
+                <span>📧</span>
+
+                <div>
+                    <small>Email</small>
+                    <strong>ayushsrivastava28112007@gmail.com</strong>
+                </div>
+
+            </div>
+
+
+            <div class="contact-item">
+
+                <span>📍</span>
+
+                <div>
+                    <small>Location</small>
+                    <strong>Prayagraj, Uttar Pradesh, India</strong>
+                </div>
+
+            </div>
+
+
+            <div class="social-links">
+
+                <a href="https://github.com/ayushsrivastava28112007-lang" target="_blank">GitHub</a>
+
+                <a href="www.linkedin.com/in/ayushsrivastava919" target="_blank">LinkedIn</a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <div class="footer-logo">AS<span>.</span></div>
+
+    <p>
+        Building my skills, one project at a time.
+    </p>
+
+    <div class="footer-links">
+
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+
+    </div>
+
+    <p class="copyright">
+        © 2026 Ayush Srivastava. All rights reserved.
+    </p>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
